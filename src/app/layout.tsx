@@ -3,6 +3,7 @@ import { Jost, PT_Serif } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import About from "./About";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -33,6 +34,7 @@ export default function RootLayout({
       >
         <NavBar />
         {children}
+        <About />
         <Footer />
       </body>
     </html>

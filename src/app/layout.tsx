@@ -4,10 +4,12 @@ import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import About from "./About";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 const jost = Jost({
   variable: "--font-jost",
-  weight: ['400', '700'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
   subsets: ["latin"],
 });
 
@@ -34,7 +36,9 @@ export default function RootLayout({
       >
         <NavBar />
         {children}
+        <Portfolio />
         <About />
+        <Contact />
         <Footer />
       </body>
     </html>

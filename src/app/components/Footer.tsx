@@ -1,8 +1,9 @@
 
 const Footer = () => {
   return (
-    <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center pt-20">
-      2025 © Copyright
+    <footer className="flex items-center justify-between px-10 md:px-30 py-6 border-t-1 border-[var(--grey)] font-[family-name:var(--font-jost)]">
+      <h3 className="text-[var(--grey)]">2025 © Copyright</h3>
+      <h3 className="text-[var(--grey)]">Desarrollado por Mateo Verdaguer</h3>
     </footer>
   )
 }

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section id="contact" className='h-[80vh] bg-[var(--darker)]'>
+      Contact
+    </section>
   )
 }
 

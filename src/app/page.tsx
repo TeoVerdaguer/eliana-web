@@ -7,7 +7,7 @@ import arrow from "../../public/arrow.svg";
 export default function Home() {
 
   return (
-    <section id="home" className="flex items-center justify-center min-h-[calc(100vh-80px)] pb-20 font-[family-name:var(--font-jost)]">
+    <section id="home" className="flex items-center justify-center min-h-[100vh] font-[family-name:var(--font-jost)]">
       <main className="flex flex-col gap-[32px] items-center">
 
         <div className="absolute -mt-7 md:mt-0 md:ml-78 h-14 w-46 z-10 bg-white rounded-xl flex items-center px-4 text-[var(--darker)] drop-shadow-lg">
@@ -30,16 +30,16 @@ export default function Home() {
             className="rounded-full"
           />
         </div>
-        <h1 className="font-[family-name:var(--font-pt-serif)] text-4xl md:text-6xl text-center m-10 max-w-[70%]">
+        <h1 className="font-[family-name:var(--font-pt-serif)] text-xl md:text-3xl lg:text-5xl xl:text-6xl text-center m-10 max-w-[70%]">
           Building digital products and effective solutions
         </h1>
-        <button
-          onClick={() => console.log('pressed')}
+        <a
+          href="#contact"
           className="flex items-center justify-center bg-[var(--accent)] h-14 w-50 cursor-pointer hover:drop-shadow-sm rounded-full shadow-[4px_4px_0px_1px_rgba(0,_0,_0,_0.7)]"
         >
           <p className="mr-2 font-medium text-lg">Contacto</p>
           <Image src={arrow} alt="arrow icon" height={18} width={18}/>
-        </button>
+        </a>
       </main>
     </section>
   )

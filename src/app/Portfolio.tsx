@@ -61,7 +61,7 @@ const Portfolio = () => {
 
   return (
     <section
-      id="about"
+      id="works"
       className="flex flex-col gap-4 px-12 py-20 md:p-40 bg-[var(--darker)]"
     >
       <div className="text-white">

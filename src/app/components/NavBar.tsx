@@ -9,7 +9,8 @@ const navItems = [
   {id: 1, text: 'Inicio', link: '#home'},
   {id: 2, text: "Portfolio", link: '#works'},
   {id: 3, text: "Sobre Mi", link: '#about'},
-  {id: 4, text: "Contacto", link: '#contact'}
+  {id: 4, text: "Experiencia", link: '#experience'},
+  {id: 5, text: "Contacto", link: '#contact'},
 ];
 
 const NavBar = () => {

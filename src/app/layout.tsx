@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import Experience from "./Experience";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -38,6 +39,7 @@ export default function RootLayout({
         {children}
         <Portfolio />
         <About />
+        <Experience />
         <Contact />
         <Footer />
       </body>

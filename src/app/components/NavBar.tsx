@@ -66,7 +66,7 @@ const NavBar = () => {
             animate="visible"
             exit="exit"
             variants={listVariants}
-            className="flex flex-col justify-around h-[95vh] w-full pt-6 pb-12 pl-14 absolute top-19 left-0 bg-[var(--darker)] text-white z-20 text-4xl font-medium font-[family-name:var(--font-jost)]"
+            className="flex flex-col justify-around h-[40vh] w-full pt-6 pb-12 pl-14 absolute top-19 left-0 bg-[var(--darker)] text-white z-20 text-4xl font-medium font-[family-name:var(--font-jost)]"
           >
             {navItems.map((item) => (
               <motion.li

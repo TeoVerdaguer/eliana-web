@@ -1,9 +1,7 @@
 "use client";
-import Image from "next/image";
-import menu from "../../../public/menu.svg";
-import cross from "../../../public/cross.svg";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X } from "lucide-react";
 
 const navItems = [
   {id: 1, text: 'Inicio', link: '#home'},
@@ -110,11 +108,11 @@ const NavBar = () => {
             className="flex justify-center items-center h-12 w-12 bg-white rounded-full hover:bg-[var(--accent)] transition-colors"
             onClick={() => setShowMenu(false)}
           >
-            <Image src={cross} alt="close menu" height={30} width={30} />
+            <X />
           </div>
         ) : (
           <div onClick={() => setShowMenu(true)}>
-            <Image src={menu} alt="open menu" height={40} width={40} />
+            <Menu size={32} className="ml-2"/>
           </div>
         )}
       </div>

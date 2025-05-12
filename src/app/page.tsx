@@ -2,7 +2,7 @@
 import Image from "next/image";
 import portrait from "../../public/images/portrait.png";
 import Typewriter from "./components/Typewriter";
-import arrow from "../../public/arrow.svg";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Home() {
 
@@ -37,8 +37,8 @@ export default function Home() {
           href="#contact"
           className="flex items-center justify-center bg-[var(--accent)] h-14 w-50 cursor-pointer hover:drop-shadow-sm rounded-full shadow-[4px_4px_0px_1px_rgba(0,_0,_0,_0.7)]"
         >
-          <p className="mr-2 font-medium text-lg">Contacto</p>
-          <Image src={arrow} alt="arrow icon" height={18} width={18}/>
+          <p className="mr-1 font-medium text-lg">Contacto</p>
+          <ArrowUpRight size={30} />
         </a>
       </main>
     </section>

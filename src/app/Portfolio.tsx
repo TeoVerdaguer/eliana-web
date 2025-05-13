@@ -10,7 +10,7 @@ const Portfolio = () => {
       category: "BRANDING",
       description: "Diseño de marca",
       link: "https://www.behance.net/gallery/224432491/Identidad-Visual-QM-motors",
-      image: "/images/qm.png"
+      image: "/images/qm.webp"
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const Portfolio = () => {
       category: "DISEÑO DE PROPS",
       description: "Etiqueta champagne",
       link: "https://www.behance.net/gallery/207332349/Etiqueta-Champagne",
-      image: "/images/bando.png"
+      image: "/images/bando.webp"
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const Portfolio = () => {
       category: "BRANDING",
       description: "Logos 2024",
       link: "https://www.behance.net/gallery/200439623/LOGOFOLIO",
-      image: "/images/logofolio.png"
+      image: "/images/logofolio.webp"
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ const Portfolio = () => {
       category: "BRANDING",
       description: "Manual de marca",
       link: "https://www.behance.net/gallery/189868051/Manual-de-marca-RPM",
-      image: "/images/rpm.png"
+      image: "/images/rpm.webp"
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ const Portfolio = () => {
       category: "ILUSTRACIÓN",
       description: "Diseño de portadas",
       link: "https://www.behance.net/gallery/188069617/Diseno-de-tapas-de-libros",
-      image: "/images/worldlink.png"
+      image: "/images/worldlink.webp"
     },
     {
       id: 6,
@@ -50,7 +50,7 @@ const Portfolio = () => {
       category: "SOCIAL MEDIA",
       description: "Diseños para redes",
       link: "https://www.behance.net/gallery/179531793/Social-Media-ISAIAS-GOLDMAN",
-      image: "/images/isaias.png"
+      image: "/images/isaias.webp"
     },
     {
       id: 7,
@@ -58,7 +58,7 @@ const Portfolio = () => {
       category: "EDITORIAL",
       description: "Diseño de carta/menú",
       link: "https://www.behance.net/gallery/174923079/Diseno-de-Carta",
-      image: "/images/region.png"
+      image: "/images/region.webp"
     },
     {
       id: 8,
@@ -66,7 +66,7 @@ const Portfolio = () => {
       category: "ILUSTRACIÓN",
       description: "Diseño de estampas",
       link: "https://www.behance.net/gallery/161256507/Diseno-de-Estampa-Complemento",
-      image: "/images/complemento.png"
+      image: "/images/complemento.webp"
     },
     {
       id: 9,
@@ -74,7 +74,7 @@ const Portfolio = () => {
       category: "DISEÑO UX/UI",
       description: "Diseño de app",
       link: "https://www.behance.net/gallery/149904997/BALANCE-DISENO-UXUI",
-      image: "/images/balance.png"
+      image: "/images/balance.webp"
     },
   ];
   const OPTIONS: EmblaOptionsType = { align: 'start', dragFree: true }

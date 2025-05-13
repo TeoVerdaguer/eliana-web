@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({ title, category, description, link, img }) 
 
   return (
     <motion.div
-      className="bg-[var(--darker)] relative group"
+      className="embla__slide bg-[var(--darker)] relative group"
       onClick={() => window.open(link, "_blank")}
     >
       <div

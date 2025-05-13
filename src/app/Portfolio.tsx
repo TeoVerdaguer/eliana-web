@@ -1,9 +1,11 @@
 "use client";
-import Card from "./components/Card";
+import { EmblaOptionsType } from 'embla-carousel'
+import EmblaCarousel from "@/app/components/EmblaCarousel"
 
 const Portfolio = () => {
-  const cards = [
+  const SLIDES = [
     {
+      id: 1,
       title: "QM Motors",
       category: "BRANDING",
       description: "Diseño de marca",
@@ -11,6 +13,7 @@ const Portfolio = () => {
       image: "/images/qm.png"
     },
     {
+      id: 2,
       title: "Bando",
       category: "DISEÑO DE PROPS",
       description: "Etiqueta champagne",
@@ -18,6 +21,7 @@ const Portfolio = () => {
       image: "/images/bando.png"
     },
     {
+      id: 3,
       title: "Logofolio",
       category: "BRANDING",
       description: "Logos 2024",
@@ -25,6 +29,7 @@ const Portfolio = () => {
       image: "/images/logofolio.png"
     },
     {
+      id: 4,
       title: "RPM Consultores",
       category: "BRANDING",
       description: "Manual de marca",
@@ -32,6 +37,7 @@ const Portfolio = () => {
       image: "/images/rpm.png"
     },
     {
+      id: 5,
       title: "Worldlink",
       category: "ILUSTRACIÓN",
       description: "Diseño de portadas",
@@ -39,6 +45,7 @@ const Portfolio = () => {
       image: "/images/worldlink.png"
     },
     {
+      id: 6,
       title: "Isaias Goldman",
       category: "SOCIAL MEDIA",
       description: "Diseños para redes",
@@ -46,6 +53,7 @@ const Portfolio = () => {
       image: "/images/isaias.png"
     },
     {
+      id: 7,
       title: "Region Bar",
       category: "EDITORIAL",
       description: "Diseño de carta/menú",
@@ -53,6 +61,7 @@ const Portfolio = () => {
       image: "/images/region.png"
     },
     {
+      id: 8,
       title: "Complemento",
       category: "ILUSTRACIÓN",
       description: "Diseño de estampas",
@@ -60,6 +69,7 @@ const Portfolio = () => {
       image: "/images/complemento.png"
     },
     {
+      id: 9,
       title: "Balance",
       category: "DISEÑO UX/UI",
       description: "Diseño de app",
@@ -67,6 +77,7 @@ const Portfolio = () => {
       image: "/images/balance.png"
     },
   ];
+  const OPTIONS: EmblaOptionsType = { align: 'start', dragFree: true }
 
   return (
     <section
@@ -88,20 +99,7 @@ const Portfolio = () => {
           <div className="flex items-center">01<div className="h-[1px] w-30 mx-10 bg-black"></div>DISEÑO UX/UI</div>
         </div> */}
       </div>
-      <div>
-        <div className="flex gap-8 mt-20 md:mt-30 xl:mt-40 overflow-scroll w-[120%] pr-30">
-          {cards.map((card, index) => (
-            <Card
-              key={index}
-              title={card.title}
-              category={card.category}
-              description={card.description}
-              link={card.link}
-              img={card.image}
-            />
-          ))}
-        </div>
-      </div>
+      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>
   );
 };

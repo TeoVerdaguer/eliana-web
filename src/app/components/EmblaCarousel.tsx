@@ -23,7 +23,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   const [emblaRef] = useEmblaCarousel(options, [Autoplay()])
 
   return (
-    <section className="embla">
+    <section className="embla overflow-hidden w-full">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container flex gap-8 mt-20 md:mt-30 xl:mt-40">
           {slides.map((item) => (

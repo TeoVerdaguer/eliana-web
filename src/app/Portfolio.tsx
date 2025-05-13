@@ -82,7 +82,7 @@ const Portfolio = () => {
   return (
     <section
       id="works"
-      className="flex flex-col gap-4 px-12 py-20 md:p-40 bg-[var(--darker)]"
+      className="flex flex-col gap-4 py-20 pl-12 md:pl-40 bg-[var(--darker)]"
     >
       <div className="text-white">
         <h1 className="font-[family-name:var(--font-pt-serif)] text-4xl md:text-5xl mb-3">

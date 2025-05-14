@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Jost, PT_Serif } from "next/font/google";
 import "./globals.css";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import About from "./About";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Experience from "./Experience";
+import NavBar from "@/app/components/NavBar";
+import Footer from "@/app/components/Footer";
+import About from "@/app/sections/About";
+import Portfolio from "@/app/sections/Portfolio";
+import Contact from "@/app/sections/Contact";
+import Experience from "@/app/sections/Experience";
 
 const jost = Jost({
   variable: "--font-jost",

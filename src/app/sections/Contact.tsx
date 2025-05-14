@@ -1,8 +1,8 @@
 import React from 'react'
 import { Phone, Mail } from 'lucide-react'
-import  Behance  from '../../public/icons/Behance'
-import Instagram from '../../public/icons/Instagram'
-import LinkedIn from '../../public/icons/LinkedIn'
+import  Behance  from '../../../public/icons/Behance'
+import Instagram from '../../../public/icons/Instagram'
+import LinkedIn from '../../../public/icons/LinkedIn'
 
 const Contact = () => {
   return (

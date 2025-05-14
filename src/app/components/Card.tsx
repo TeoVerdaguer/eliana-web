@@ -31,10 +31,10 @@ const Card: React.FC<CardProps> = ({ title, category, description, link, img }) 
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
-        <div className="h-[80%] pt-6 pl-6 group-hover:hidden">
+        <div className="h-[80%] pt-6 pl-6 ">
           <h1 className="text-white text-2xl uppercase">{title}</h1>
         </div>
-        <div className="pl-6 group-hover:hidden">
+        <div className="pl-6 ">
           <h2 className="text-white">{category}</h2>
           <h3 className="text-[var(--grey)] text-sm">{description}</h3>
         </div>

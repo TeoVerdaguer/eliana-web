@@ -1,4 +1,3 @@
-'use client';
 import Image from "next/image";
 import portrait from "../../public/images/portrait.webp";
 import Typewriter from "./components/Typewriter";

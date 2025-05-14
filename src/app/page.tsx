@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="absolute z-10 mr-30 md:mr-0 md:ml-39.5 mt-4 md:mt-9 w-0 h-0 border-t-[34px] border-r-[30px] border-b-0 border-l-0 border-solid border-t-white border-r-transparent border-b-transparent border-l-transparent" />
 
-        <div className="h-[200px] w-[200px] rounded-full border-4 border-white overflow-hidden drop-shadow-lg">
+        <div className="h-[190px] w-[190px] rounded-full border-4 border-white  drop-shadow-lg">
           <Image
             src={portrait}
             height={200}

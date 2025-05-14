@@ -8,20 +8,6 @@
   --grey: #8f8f8f;
 }
 
-@theme inline {
-  --color-background: var(--light);
-  --color-foreground: var(--dark);
-  --font-jost: var(--font-jost);
-  --font-ptserif: var(--font-pt-serif);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --light: #222224;
-    --dark: #f8f9fd;
-  }
-}
-
 body {
   background: var(--light);
   color: var(--dark);

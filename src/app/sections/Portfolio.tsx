@@ -92,12 +92,6 @@ const Portfolio = () => {
           Soy la mejor diseñadora del mundo y nadie me superará jamás.
           Contratame y vas a comprobar lo que digo. Soy tremenda capa.
         </p>
-        {/* <div className="flex flex-col gap-6 mt-60 font-[family-name:var(--font-jost)]">
-          <div className="flex items-center">01<div className="h-[1px] w-30 mx-10 bg-black"></div>SOCIAL MEDIA</div>
-          <div className="flex items-center">01<div className="h-[1px] w-30 mx-10 bg-black"></div>BRANDING</div>
-          <div className="flex items-center">01<div className="h-[1px] w-30 mx-10 bg-black"></div>ILUSTRACIONES</div>
-          <div className="flex items-center">01<div className="h-[1px] w-30 mx-10 bg-black"></div>DISEÑO UX/UI</div>
-        </div> */}
       </div>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </section>

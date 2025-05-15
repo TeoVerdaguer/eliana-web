@@ -3,7 +3,7 @@ import { Jost, PT_Serif } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/app/components/NavBar";
 import Footer from "@/app/components/Footer";
-import About from "@/app/sections/About";
+import Education from "@/app/sections/Education";
 import Portfolio from "@/app/sections/Portfolio";
 import Contact from "@/app/sections/Contact";
 import Experience from "@/app/sections/Experience";
@@ -38,7 +38,7 @@ export default function RootLayout({
         <NavBar />
         {children}
         <Portfolio />
-        <About />
+        <Education />
         <Experience />
         <Contact />
         <Footer />

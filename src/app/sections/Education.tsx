@@ -5,7 +5,7 @@ import AfterEffects from '../../../public/icons/AfterEffects';
 import Figma from '../../../public/icons/Figma';
 import Capcut from '../../../public/icons/Capcut';
 
-const About = () => {
+const Education = () => {
   const data = [
     {
       id: 1,
@@ -25,7 +25,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className='min-h-[80vh] pt-20 px-10 md:px-30'>
+    <section id="education" className='min-h-[80vh] pt-20 px-10 md:px-30'>
       <h1 className='font-[family-name:var(--font-pt-serif)] text-5xl text-[var(--darker)]'>Estudios</h1>
       <table className='text-[var(--darker)] my-10 w-full'>
         <tbody>
@@ -68,4 +68,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Education

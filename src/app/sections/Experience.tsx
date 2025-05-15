@@ -32,7 +32,7 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className='min-h-[80vh] py-20 px-10 md:px-30 bg-[var(--darker)]'>
+    <section id="experience" className='min-h-[80vh] pt-20 px-10 md:px-30 bg-[var(--darker)]'>
       {/* <h3 className='font-[family-name:var(--font-jost)] text-xl text-white pb-4'>Experiencia</h3>
       <hr className='text-[var(--grey)]'/> */}
 

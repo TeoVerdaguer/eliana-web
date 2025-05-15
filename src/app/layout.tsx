@@ -21,8 +21,8 @@ const ptSerif = PT_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Eliana barrionuevo | Diseñadora",
-  description: "Desarrollado por Mateo Verdaguer",
+  title: "Eliana Barrionuevo | Diseñadora Gráfica",
+  description: "Diseño visual que comunica, impacta y conecta",
 };
 
 export default function RootLayout({

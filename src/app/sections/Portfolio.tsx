@@ -86,11 +86,10 @@ const Portfolio = () => {
     >
       <div className="text-white">
         <h1 className="font-[family-name:var(--font-pt-serif)] text-4xl md:text-5xl mb-3">
-          Hola, soy <br /> Eliana Barrionuevo
+          Eliana Barrionuevo
         </h1>
         <p className="font-[family-name:var(--font-jost)] text-sm md:text-lg font-light max-w-50 md:max-w-150 text-[var(--grey)]">
-          Soy la mejor diseñadora del mundo y nadie me superará jamás.
-          Contratame y vas a comprobar lo que digo. Soy tremenda capa.
+          Diseñadora gráfica recibida hace 3 años. Me especializo en crear piezas visuales que comunican de forma clara, atractiva y estratégica.
         </p>
       </div>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />

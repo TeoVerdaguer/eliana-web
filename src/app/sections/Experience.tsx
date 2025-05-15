@@ -33,8 +33,10 @@ const Experience = () => {
 
   return (
     <section id="experience" className='min-h-[80vh] py-20 px-10 md:px-30 bg-[var(--darker)]'>
-      <h3 className='font-[family-name:var(--font-jost)] text-xl text-white pb-4'>Experiencia</h3>
-      <h1 className='font-[family-name:var(--font-pt-serif)] text-5xl text-white'>Un resumen anual <br/>de mi experiencia</h1>
+      {/* <h3 className='font-[family-name:var(--font-jost)] text-xl text-white pb-4'>Experiencia</h3>
+      <hr className='text-[var(--grey)]'/> */}
+
+      <h1 className='font-[family-name:var(--font-pt-serif)] text-5xl text-white'>Experiencia</h1>
 
       <table className='text-white my-10 w-full'>
         <tbody>
@@ -50,7 +52,7 @@ const Experience = () => {
                     <p>{item.monthFrom}</p>
                     <h2 className='text-xl md:text-2xl'>{item.yearFrom}</h2>
                   </div>
-                    <h2 className='text-2xl px-2 md:pt-5.5 text-center'> - </h2>
+                  <h2 className='text-2xl px-2 md:pt-5.5 text-center'> - </h2>
                   <div className='text-center'>
                     <p>{item.monthTo}</p>
                     <h2 className='text-xl md:text-2xl'>{item.yearTo}</h2>

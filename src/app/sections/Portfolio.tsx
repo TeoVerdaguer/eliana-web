@@ -82,14 +82,14 @@ const Portfolio = () => {
   return (
     <section
       id="works"
-      className="flex flex-col gap-4 py-20 pl-12 md:pl-40 bg-[var(--darker)]"
+      className="flex flex-col gap-4 py-20 pl-12 md:pl-50 bg-[var(--darker)]"
     >
       <div className="text-white">
-        <h1 className="font-[family-name:var(--font-pt-serif)] text-4xl md:text-5xl mb-3">
+        <h1 className="font-[family-name:var(--font-pt-serif)] text-4xl sm:text-5xl mb-3">
           Eliana Barrionuevo
         </h1>
-        <p className="font-[family-name:var(--font-jost)] text-sm md:text-lg font-light max-w-50 md:max-w-150 text-[var(--grey)]">
-          Diseñadora gráfica recibida hace 3 años. Me especializo en crear piezas visuales que comunican de forma clara, atractiva y estratégica.
+        <p className="font-[family-name:var(--font-jost)] text-md md:text-lg font-light max-w-60 sm:max-w-90 md:max-w-140 text-[var(--grey)]">
+          Diseñadora gráfica recibida en 2022 con 3 años de experiencia.<br /> Me especializo en crear piezas visuales que comunican de forma clara, atractiva y estratégica.
         </p>
       </div>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />

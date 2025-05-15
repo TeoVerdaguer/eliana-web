@@ -7,8 +7,8 @@ import LinkedIn from '../../../public/icons/LinkedIn'
 const Contact = () => {
   return (
     <section id="contact" className="h-[40vh] flex flex-col justify-center items-center">
-      <h1 className="text-center font-[family-name:var(--font-pt-serif)] text-5xl">Contacto</h1>
-      <div className="mt-30 flex items-center justify-center gap-2 sm:gap-6 md:gap-20">
+      <h1 className="text-center font-[family-name:var(--font-pt-serif)] text-4xl sm:text-5xl">Contacto</h1>
+      <div className="mt-20 flex items-center justify-center gap-2 sm:gap-6 md:gap-20">
         <a href="https://www.behance.net/elianabarrionuevo" target="_blank" className="rounded-full bg-[var(--darker)] h-12 w-12 flex justify-center items-center group">
           <Behance />
         </a>

@@ -5,7 +5,7 @@ const Experience = () => {
     {
       id: 1,
       title: 'BANDO - Diseñadora Gráfica',
-      description: 'Diseños para redes sociales, publicidad, branding/merch para la empresa y creación de contenido y edición',
+      description: 'Diseños para redes sociales, publicidad, key visuals, merchandising, packaging y edición de videos',
       monthFrom: 'Junio',
       yearFrom: '2024',
       monthTo: 'Actualidad',
@@ -14,7 +14,7 @@ const Experience = () => {
     {
       id: 2,
       title: 'NOMINUS - Diseñadora Gráfica',
-      description: 'Diseños para redes sociales, publicidad, diseño de flyers impresos y diseño de identidad corporativa',
+      description: 'Diseños para redes sociales, publicidad, diseño de materiales impresos y diseño de identidad corporativa',
       monthFrom: 'Mayo',
       yearFrom: '2023',
       monthTo: 'Marzo',
@@ -32,11 +32,11 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className='min-h-[80vh] pt-20 px-10 md:px-30 bg-[var(--darker)]'>
+    <section id="experience" className='min-h-[80vh] pt-20 px-10 pb-10 md:px-50 bg-[var(--darker)]'>
       {/* <h3 className='font-[family-name:var(--font-jost)] text-xl text-white pb-4'>Experiencia</h3>
       <hr className='text-[var(--grey)]'/> */}
 
-      <h1 className='font-[family-name:var(--font-pt-serif)] text-5xl text-white'>Experiencia</h1>
+      <h1 className='font-[family-name:var(--font-pt-serif)] text-4xl sm:text-5xl text-white'>Experiencia</h1>
 
       <table className='text-white my-10 w-full'>
         <tbody>
@@ -46,16 +46,16 @@ const Experience = () => {
                 <h2 className='font-[500]'>{item.title}</h2>
                 <p className='max-w-[80%] md:max-w-[500px] text-[var(--grey)]'>{item.description}</p>
               </td>
-              <td className='text-end'>
+              <td className='text-end py-2'>
                 <div className='flex flex-col md:flex-row md:justify-end'>
                   <div className='text-center'>
                     <p>{item.monthFrom}</p>
-                    <h2 className='text-xl md:text-2xl'>{item.yearFrom}</h2>
+                    <h2 className='text-lg sm:text-xl md:text-2xl'>{item.yearFrom}</h2>
                   </div>
                   <h2 className='text-2xl px-2 md:pt-5.5 text-center'> - </h2>
                   <div className='text-center'>
                     <p>{item.monthTo}</p>
-                    <h2 className='text-xl md:text-2xl'>{item.yearTo}</h2>
+                    <h2 className='text-lg sm:text-xl md:text-2xl'>{item.yearTo}</h2>
                   </div>
                 </div>
               </td>

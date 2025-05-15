@@ -25,8 +25,8 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className='min-h-[80vh] pt-20 px-10 md:px-30'>
-      <h1 className='font-[family-name:var(--font-pt-serif)] text-5xl text-[var(--darker)]'>Estudios</h1>
+    <section id="education" className='min-h-[80vh] pt-20 px-10 md:px-50'>
+      <h1 className='font-[family-name:var(--font-pt-serif)] text-4xl sm:text-5xl text-[var(--darker)]'>Estudios</h1>
       <table className='text-[var(--darker)] my-10 w-full'>
         <tbody>
           {data.map((item, index) => (
@@ -35,16 +35,16 @@ const Education = () => {
                 <h2 className='font-[500]'>{item.title}</h2>
                 <p className='max-w-[80%] md:max-w-[500px] text-[var(--grey)]'>{item.description}</p>
               </td>
-              <td className='text-end'>
+              <td className='text-end pt-4'>
                 <div className='flex flex-col md:flex-row md:justify-end'>
                   <div className='text-center'>
-                    <h2 className='text-xl md:text-2xl'>{item.yearFrom}</h2>
+                    <h2 className='text-lg sm:text-xl md:text-2xl'>{item.yearFrom}</h2>
                   </div>
                   {item.yearTo && (
                     <>
                       <h2 className='text-2xl px-2 text-center'> - </h2>
                       <div className='text-center'>
-                        <h2 className='text-xl md:text-2xl'>{item.yearTo}</h2>
+                        <h2 className='text-lg sm:text-xl md:text-2xl'>{item.yearTo}</h2>
                       </div>
                     </>
                   )}

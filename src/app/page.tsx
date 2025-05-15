@@ -10,9 +10,9 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] items-center">
 
         <div className="absolute -mt-7 md:mt-0 md:ml-78 h-14 w-46 z-10 bg-white rounded-xl flex items-center px-4 text-[var(--darker)] drop-shadow-lg">
-          <p className="font-[family-name:var(--font-jost)] text-md">Hola, soy&nbsp;</p>
+          {/* <p className="font-[family-name:var(--font-jost)] text-md">Hola, soy&nbsp;</p> */}
           <Typewriter
-            words={['Eliana', 'creativa', 'detallista', 'diseñadora']}
+            words={['Hola, soy Eliana', 'Soy creativa', 'Soy detallista', 'Soy diseñadora.']}
             typingSpeed={100}
             deletingSpeed={50}
             delayBetweenWords={1500}
@@ -29,8 +29,8 @@ export default function Home() {
             className="rounded-full"
           />
         </div>
-        <h1 className="font-[family-name:var(--font-pt-serif)] text-xl md:text-3xl lg:text-5xl xl:text-6xl text-center m-10 max-w-[70%]">
-          Building digital products and effective solutions
+        <h1 className="font-[family-name:var(--font-pt-serif)] text-2xl md:text-5xl lg:text-5xl xl:text-6xl text-center m-10 max-w-[70%]">
+          Diseño visual que comunica, impacta y conecta
         </h1>
         <a
           href="#contact"

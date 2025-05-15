@@ -23,9 +23,9 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   const [emblaRef] = useEmblaCarousel(options, [Autoplay()])
 
   return (
-    <section className="embla overflow-hidden w-full">
+    <div className="embla overflow-hidden w-full">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container flex gap-8 mt-20 md:mt-30 xl:mt-40">
+        <div className="embla__container flex gap-8 mt-10 lg:mt-20 xl:mt-30">
           {slides.map((item) => (
             <Card
               key={item.id}
@@ -38,7 +38,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 

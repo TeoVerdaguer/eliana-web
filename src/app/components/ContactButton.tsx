@@ -73,7 +73,7 @@ export default function ContactButton() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center gap-1"
                   >
-                    <WhatsApp color='black' />
+                    <WhatsApp className='fill-black' />
                   </a>
                 </motion.li>
 

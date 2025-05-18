@@ -12,7 +12,6 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] items-center">
 
         <div className="absolute -mt-7 md:mt-0 md:ml-78 h-14 w-46 z-10 bg-white rounded-xl flex items-center px-4 text-[var(--darker)] drop-shadow-lg">
-          {/* <p className="font-[family-name:var(--font-jost)] text-md">Hola, soy&nbsp;</p> */}
           <Typewriter
             words={['Hola, soy Eliana', 'Soy creativa', 'Soy detallista', 'Soy diseñadora.']}
             typingSpeed={100}

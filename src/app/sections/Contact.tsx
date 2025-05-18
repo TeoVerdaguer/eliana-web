@@ -24,7 +24,7 @@ const Contact = () => {
         <a href="tel:3516889816" className="rounded-full bg-[var(--darker)] h-12 w-12 flex justify-center items-center group hover:text-[var(--primary)]">
           <Phone size={26} className="text-white group-hover:text-[var(--accent)]" />
         </a>
-        <a href="mailto:elibarrionew@gmail.com" className="rounded-full bg-[var(--darker)] h-12 w-12 flex justify-center items-center group">
+        <a href="mailto:elibarrionuevo6@gmail.com" className="rounded-full bg-[var(--darker)] h-12 w-12 flex justify-center items-center group">
           <Mail size={26} className="text-white group-hover:text-[var(--accent)]" />
         </a>
         <a href="https://api.whatsapp.com/send?phone=+5493516889816&text=Hola+Eliana!" target='_blank' className="rounded-full bg-[var(--darker)] h-12 w-12 flex justify-center items-center group">

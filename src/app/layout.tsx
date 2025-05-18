@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
+// Fonts
 import { Jost, PT_Serif } from "next/font/google";
+// Styles
 import "./globals.css";
+// Components
 import NavBar from "@/app/components/NavBar";
 import Footer from "@/app/components/Footer";
+// Sections
 import Education from "@/app/sections/Education";
 import Portfolio from "@/app/sections/Portfolio";
 import Contact from "@/app/sections/Contact";

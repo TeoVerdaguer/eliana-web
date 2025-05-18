@@ -1,7 +1,8 @@
 'use client'
-import React from "react";
-import { motion } from "motion/react";
 import { useState } from "react";
+// Libraries
+import { motion } from "motion/react";
+// Icons
 import { ArrowUpRight } from "lucide-react";
 
 interface CardProps {

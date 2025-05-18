@@ -1,4 +1,5 @@
 import React from 'react'
+// Icons
 import Photoshop from '../../../public/icons/Photoshop';
 import Illustrator from '../../../public/icons/Illustrator';
 import AfterEffects from '../../../public/icons/AfterEffects';

@@ -1,7 +1,9 @@
 import Image from "next/image";
+// Images
 import portrait from "../../public/images/portrait.webp";
+// Compenents
 import Typewriter from "./components/Typewriter";
-import { ArrowUpRight } from "lucide-react";
+import ContactButton from "./components/ContactButton";
 
 export default function Home() {
 
@@ -32,13 +34,7 @@ export default function Home() {
         <h1 className="font-[family-name:var(--font-pt-serif)] text-2xl md:text-5xl lg:text-5xl xl:text-6xl text-center m-10 max-w-[70%]">
           Diseño visual que comunica, impacta y conecta
         </h1>
-        <a
-          href="#contact"
-          className="flex items-center justify-center bg-[var(--accent)] h-14 w-50 cursor-pointer hover:drop-shadow-sm rounded-full shadow-[4px_4px_0px_1px_rgba(0,_0,_0,_0.7)]"
-        >
-          <p className="mr-1 font-medium text-lg">Contacto</p>
-          <ArrowUpRight size={30} />
-        </a>
+        <ContactButton />
       </main>
     </section>
   )

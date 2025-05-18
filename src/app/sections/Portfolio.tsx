@@ -1,5 +1,7 @@
 "use client";
+// Libraries
 import { EmblaOptionsType } from 'embla-carousel'
+// Components
 import EmblaCarousel from "@/app/components/EmblaCarousel"
 
 const Portfolio = () => {

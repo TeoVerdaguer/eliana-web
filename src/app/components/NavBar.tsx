@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
+// Animations
 import { motion, AnimatePresence } from "framer-motion";
+// Icons
 import { Menu, X } from "lucide-react";
 
 const navItems = [

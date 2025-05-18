@@ -1,7 +1,9 @@
 import React from 'react'
+// Libraries
 import { EmblaOptionsType } from 'embla-carousel'
 import Autoplay from 'embla-carousel-autoplay'
 import useEmblaCarousel from 'embla-carousel-react'
+// Components
 import Card from './Card'
 
 interface CardProps {

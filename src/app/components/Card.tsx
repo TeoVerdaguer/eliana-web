@@ -7,8 +7,6 @@ interface CardProps {
   id: string;
   title: string;
   category: string;
-  description: string;
-  link: string;
   image: string;
 }
 
@@ -16,8 +14,6 @@ const Card = ({
   id,
   title,
   category,
-  description,
-  link,
   image,
   onOpen,
 }: CardProps) => {

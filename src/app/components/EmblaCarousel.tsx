@@ -33,14 +33,6 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
         <div className="embla__container flex gap-8 mt-10 mb-5 lg:mt-20 xl:mt-30">
           {slides.map((item) => (
             <Card key={item.id} {...item} onOpen={setOpenId} />
-            // <Card
-            //   key={item.id}
-            //   title={item.title}
-            //   category={item.category}
-            //   description={item.description}
-            //   link={item.link}
-            //   img={item.image}
-            // />
           ))}
         </div>
       </div>

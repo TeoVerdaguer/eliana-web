@@ -50,6 +50,7 @@ const CardModal = ({
               height={500}
               width={800}
               className="h-1/2 w-full object-cover"
+              priority={true}
             />
 
             <div className="flex-1 p-8 space-y-4 overflow-y-auto">

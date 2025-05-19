@@ -44,7 +44,7 @@ const Card = ({
       transition={{ type: 'spring', stiffness: 300, damping: 25 }}
     >
       {image?.length > 0 && (
-        <Image src={image} alt={title} fill className="object-cover" />
+        <Image src={image} alt={title} fill className="object-cover" priority={true} />
       )}
 
       <motion.div

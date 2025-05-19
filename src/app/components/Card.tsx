@@ -1,52 +1,68 @@
-'use client'
-import { useState } from "react";
-// Libraries
-import { motion } from "motion/react";
-// Icons
-import { ArrowUpRight } from "lucide-react";
+'use client';
+import { motion, useMotionTemplate, useMotionValue } from 'framer-motion';
+import Image from 'next/image';
 
 interface CardProps {
+  onOpen: (id: string) => void;
+  id: string;
   title: string;
   category: string;
   description: string;
   link: string;
-  img: string;
+  image: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, category, description, link, img }) => {
-  const [hovered, setHovered] = useState(false);
+const Card = ({
+  id,
+  title,
+  category,
+  description,
+  link,
+  image,
+  onOpen,
+}: CardProps) => {
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+
+  const maskImage = useMotionTemplate`
+    radial-gradient(180px circle at ${mouseX}px ${mouseY}px,
+      rgba(255,255,255,0.25), transparent)
+  `;
+
+  function handleMouseMove(
+    e: React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) {
+    const rect = e.currentTarget.getBoundingClientRect();
+    mouseX.set(e.clientX - rect.left);
+    mouseY.set(e.clientY - rect.top);
+  }
 
   return (
-    <motion.div
-      className="embla__slide bg-[var(--darker)] relative group"
-      onClick={() => window.open(link, "_blank")}
+    <motion.article
+      layoutId={id}
+      onClick={() => onOpen(id)} 
+      onMouseMove={handleMouseMove}
+      className="relative h-90 w-70 rounded-3xl overflow-hidden shadow-xl font-[family-name:var(--font-jost)]
+                 bg-neutral-900 text-white cursor-pointer group min-w-70"
+      whileHover={{ scale: 1.02 }}
+      transition={{ type: 'spring', stiffness: 300, damping: 25 }}
     >
-      <div
-        className={`bg-[var(--dark)] h-90 w-70 rounded-3xl font-[family-name:var(--font-jost)] cursor-pointer
-        before:absolute before:bottom-0 before:right-14 before:rounded-full before:h-[30px] before:w-[30px] before:bg-[#222224] before:shadow-[15px_15px_0_#151515] hover:before:hidden
-        after:absolute after:bottom-14 after:right-0 after:rounded-full after:h-[30px] after:w-[30px] after:bg-[#222224] after:shadow-[15px_15px_0_#151515] hover:after:hidden
-        group-hover:bg-center group-hover:bg-cover transition-all duration-400 active:bg-[var(--dark)]`}
-        style={{
-          backgroundImage: hovered ? `url(${img})` : "none",
-        }}
-        onMouseEnter={() => setHovered(true)}
-        onMouseLeave={() => setHovered(false)}
-        onClick={() => setHovered(false)}
-      >
-        <div className="h-[80%] pt-6 pl-6 ">
-          <h1 className="text-white text-2xl uppercase">{title}</h1>
-        </div>
-        <div className="pl-6 ">
-          <h2 className="text-white">{category}</h2>
-          <h3 className="text-[var(--grey)] text-sm">{description}</h3>
-        </div>
+      {image?.length > 0 && (
+        <Image src={image} alt={title} fill className="object-cover" />
+      )}
+
+      <motion.div
+        style={{ WebkitMaskImage: maskImage, maskImage }}
+        className="absolute inset-0 bg-neutral-900/70 pointer-events-none
+                   group-hover:opacity-100 opacity-0 transition-opacity"
+      />
+
+      <div className="absolute inset-0 flex flex-col justify-end p-5">
+        <h3 className="text-xl font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,1)]">{title}</h3>
+        <p className="text-sm text-white drop-shadow-[0_2px_4px_rgba(0,0,0,1)]">{category}</p>
       </div>
-      <div className="bg-[var(--darker)] absolute bottom-0 right-0 h-14 w-14 rounded-tl-3xl "></div>
-      <div className="absolute bottom-0 right-0 h-12 w-12 bg-[var(--accent)] rounded-full flex justify-center items-center cursor-pointer">
-        <ArrowUpRight size={30} />
-      </div>
-    </motion.div>
+    </motion.article>
   );
-};
+}
 
 export default Card;

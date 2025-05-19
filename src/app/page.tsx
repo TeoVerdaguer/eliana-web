@@ -1,11 +1,16 @@
+'use client'
 import Image from "next/image";
 // Images
 import portrait from "../../public/images/portrait.webp";
 // Compenents
 import Typewriter from "./components/Typewriter";
 import ContactButton from "./components/ContactButton";
+import AppStoreCard from "./components/Card";
+import AppStoreCardModal from "./components/CardModal";
+import { useState } from "react";
 
 export default function Home() {
+  const [openId, setOpenId] = useState<string | null>(null);
 
   return (
     <section id="home" className="flex items-center justify-center min-h-[100vh] font-[family-name:var(--font-jost)]">

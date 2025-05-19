@@ -7,74 +7,74 @@ import EmblaCarousel from "@/app/components/EmblaCarousel"
 const Portfolio = () => {
   const SLIDES = [
     {
-      id: 1,
+      id: "QM",
       title: "QM Motors",
       category: "BRANDING",
-      description: "Diseño de marca",
+      description: "Diseño de identidad de marca y diseños para redes sociales.",
       link: "https://www.behance.net/gallery/224432491/Identidad-Visual-QM-motors",
       image: "/images/qm.webp"
     },
     {
-      id: 2,
+      id: "BANDO",
       title: "Bando",
       category: "DISEÑO DE PROPS",
-      description: "Etiqueta champagne",
+      description: "Diseño de prop para producción de fotos.",
       link: "https://www.behance.net/gallery/207332349/Etiqueta-Champagne",
       image: "/images/bando.webp"
     },
     {
-      id: 3,
+      id: "LOGOFOLIO",
       title: "Logofolio",
       category: "BRANDING",
-      description: "Logos 2024",
+      description: "Selección de logos diseñados en el período 2024.",
       link: "https://www.behance.net/gallery/200439623/LOGOFOLIO",
       image: "/images/logofolio.webp"
     },
     {
-      id: 4,
+      id: "RPM",
       title: "RPM Consultores",
       category: "BRANDING",
-      description: "Manual de marca",
+      description: "Vectorización de logo preexistente y diseño de manual de marca.",
       link: "https://www.behance.net/gallery/189868051/Manual-de-marca-RPM",
       image: "/images/rpm.webp"
     },
     {
-      id: 5,
+      id: "WORLDLINK",
       title: "Worldlink",
       category: "ILUSTRACIÓN",
-      description: "Diseño de portadas",
+      description: "Diseño de portadas de material de estudio para escuela de inglés.",
       link: "https://www.behance.net/gallery/188069617/Diseno-de-tapas-de-libros",
       image: "/images/worldlink.webp"
     },
     {
-      id: 6,
+      id: "ISAIAS",
       title: "Isaias Goldman",
       category: "SOCIAL MEDIA",
-      description: "Diseños para redes",
+      description: "Diseños para redes sociales. Trabajo en conjunto con CM.",
       link: "https://www.behance.net/gallery/179531793/Social-Media-ISAIAS-GOLDMAN",
       image: "/images/isaias.webp"
     },
     {
-      id: 7,
+      id: "REGION",
       title: "Region Bar",
       category: "EDITORIAL",
-      description: "Diseño de carta/menú",
+      description: "Diseño de carta/menú del bar.",
       link: "https://www.behance.net/gallery/174923079/Diseno-de-Carta",
       image: "/images/region.webp"
     },
     {
-      id: 8,
+      id: "COMPLEMENTO",
       title: "Complemento",
       category: "ILUSTRACIÓN",
-      description: "Diseño de estampas",
+      description: "Ilustraciónes creadas para estampas de remeras.",
       link: "https://www.behance.net/gallery/161256507/Diseno-de-Estampa-Complemento",
       image: "/images/complemento.webp"
     },
     {
-      id: 9,
+      id: "BALANCE",
       title: "Balance",
       category: "DISEÑO UX/UI",
-      description: "Diseño de app",
+      description: "Entrega final del curso de Diseño UX/UI de Coderhouse.",
       link: "https://www.behance.net/gallery/149904997/BALANCE-DISENO-UXUI",
       image: "/images/balance.webp"
     },

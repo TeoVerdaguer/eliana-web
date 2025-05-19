@@ -73,7 +73,7 @@ export default function ContactButton() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center gap-1"
                   >
-                    <WhatsApp className='fill-black' />
+                    <WhatsApp size={24} className='fill-black' />
                   </a>
                 </motion.li>
 
@@ -92,7 +92,7 @@ export default function ContactButton() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center gap-1"
                   >
-                    <Phone color='black' size={28} />
+                    <Phone color='black' size={22} />
                   </a>
                 </motion.li>
 
@@ -111,7 +111,7 @@ export default function ContactButton() {
                     rel="noopener noreferrer"
                     className="flex flex-col items-center gap-1"
                   >
-                    <Mail color='black' size={28} />
+                    <Mail color='black' size={22} />
                   </a>
                 </motion.li>
             </motion.ul>

@@ -28,7 +28,7 @@ const Contact = () => {
           <Mail size={26} className="text-white group-hover:text-[var(--accent)]" />
         </a>
         <a href="https://api.whatsapp.com/send?phone=+5493516889816&text=Hola+Eliana!" target='_blank' className="rounded-full bg-[var(--darker)] h-12 w-12 flex justify-center items-center group">
-          <WhatsApp className="fill-white"/>
+          <WhatsApp size={32} className="fill-white"/>
         </a>
       </div>
     </section>

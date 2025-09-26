@@ -13,7 +13,7 @@ export default function Home() {
 
         <div className="absolute -mt-7 md:mt-0 md:ml-78 h-14 w-46 z-10 bg-white rounded-xl flex items-center px-4 text-[var(--darker)] drop-shadow-lg">
           <Typewriter
-            words={['Hola, soy Eliana', 'Soy creativa', 'Soy detallista', 'Soy diseñadora.']}
+            words={['Hola, soy Eliana']}
             typingSpeed={100}
             deletingSpeed={50}
             delayBetweenWords={1500}

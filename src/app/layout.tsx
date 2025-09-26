@@ -10,7 +10,7 @@ import Footer from "@/app/components/Footer";
 import Education from "@/app/sections/Education";
 import Portfolio from "@/app/sections/Portfolio";
 import Contact from "@/app/sections/Contact";
-import Experience from "@/app/sections/Experience";
+// import Experience from "@/app/sections/Experience";
 
 const jost = Jost({
   variable: "--font-jost",

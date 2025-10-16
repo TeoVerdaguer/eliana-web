@@ -9,7 +9,7 @@ const navItems = [
   {id: 1, text: 'Inicio', link: '#home'},
   {id: 2, text: "Portfolio", link: '#works'},
   {id: 3, text: "Estudios", link: '#education'},
-  {id: 4, text: "Experiencia", link: '#experience'},
+  // {id: 4, text: "Experiencia", link: '#experience'},
   {id: 5, text: "Contacto", link: '#contact'},
 ];
 

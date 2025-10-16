@@ -10,7 +10,7 @@ const Portfolio = () => {
       id: "CartelesBando",
       title: "Bando",
       category: "BRANDING",
-      description: "Diseño de perfumes para la temporada otoño/invierno 2025",
+      description: "Diseño de cartelería institucional para la marca Bando",
       link: "https://www.behance.net/gallery/231530167/Diseno-de-Via-Publica",
       image: "/images/cartelesBando.webp"
     },
@@ -26,7 +26,7 @@ const Portfolio = () => {
       id: "PerfumesBando",
       title: "Bando",
       category: "PACKAGING",
-      description: "Diseño de perfumes para la temporada otoño/invierno 2025",
+      description: "Diseño de packaging de perfumes para la temporada otoño/invierno 2025",
       link: "https://www.behance.net/gallery/236338241/Fragrances-Packaging-Design",
       image: "/images/perfumesBando.webp"
     },

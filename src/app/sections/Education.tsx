@@ -26,7 +26,7 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className='min-h-[80vh] pt-20 px-10 md:px-50'>
+    <section id="education" className='min-h-[50vh] pt-20 px-10 md:px-50'>
       <h1 className='font-[family-name:var(--font-pt-serif)] text-4xl sm:text-5xl text-[var(--darker)]'>Estudios</h1>
       <table className='text-[var(--darker)] my-10 w-full'>
         <tbody>
@@ -56,14 +56,16 @@ const Education = () => {
         </tbody>
       </table>
 
-      <h3 className='font-[family-name:var(--font-jost)] font-[500] text-xl pb-4 mt-20'>Herramientas que uso</h3>
-      <hr className='text-[var(--grey)]'/>
-      <div className='flex justify-around items-center mt-10 pb-20'>
-          <Photoshop />
-          <Illustrator />
-          <AfterEffects />
-          <Figma />
-          <Capcut />
+      <div className=''>
+        <h3 className='font-[family-name:var(--font-jost)] font-[500] text-xl pb-4 mt-20'>Herramientas que uso</h3>
+        <hr className='text-[var(--grey)]'/>
+        <div className='flex justify-around items-center mt-10 pb-20'>
+            <Photoshop />
+            <Illustrator />
+            <AfterEffects />
+            <Figma />
+            <Capcut />
+        </div>
       </div>
     </section>
   )

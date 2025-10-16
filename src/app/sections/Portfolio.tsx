@@ -7,6 +7,30 @@ import EmblaCarousel from "@/app/components/EmblaCarousel"
 const Portfolio = () => {
   const SLIDES = [
     {
+      id: "CartelesBando",
+      title: "Bando",
+      category: "BRANDING",
+      description: "Diseño de perfumes para la temporada otoño/invierno 2025",
+      link: "https://www.behance.net/gallery/231530167/Diseno-de-Via-Publica",
+      image: "/images/cartelesBando.webp"
+    },
+    {
+      id: "StickersCmto",
+      title: "Complemento",
+      category: "ILUSTRACIÓN",
+      description: "Diseño de stickers",
+      link: "https://www.behance.net/gallery/232023429/Diseno-de-Stickers",
+      image: "/images/stickersCmto.webp"
+    },
+    {
+      id: "PerfumesBando",
+      title: "Bando",
+      category: "PACKAGING",
+      description: "Diseño de perfumes para la temporada otoño/invierno 2025",
+      link: "https://www.behance.net/gallery/236338241/Fragrances-Packaging-Design",
+      image: "/images/perfumesBando.webp"
+    },
+    {
       id: "QM",
       title: "QM Motors",
       category: "BRANDING",
@@ -91,7 +115,7 @@ const Portfolio = () => {
           Eliana Barrionuevo
         </h1>
         <p className="font-[family-name:var(--font-jost)] text-md md:text-lg font-light max-w-60 sm:max-w-90 md:max-w-140 text-[var(--grey)]">
-          Diseñadora gráfica recibida en 2022 con 3 años de experiencia.<br /> Me especializo en crear piezas visuales que comunican de forma clara, atractiva y estratégica.
+          Diseñadora gráfica recibida en 2022 con 3 años de experiencia.<br /> Mi objetivo es comunicar de forma clara y atractiva. Me gusta mantenerme en constante aprendizaje y trabajar en las distintas áreas del rubo siempre con la idea de aportar soluciones creativas y efectivas.
         </p>
       </div>
       <EmblaCarousel slides={SLIDES} options={OPTIONS} />

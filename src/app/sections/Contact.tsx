@@ -7,7 +7,7 @@ import WhatsApp from '../../../public/icons/WhatsApp'
 
 const Contact = () => {
   return (
-    <section id="contact" className="h-[50vh] flex flex-col justify-center items-center">
+    <section id="contact" className="h-[30vh] flex flex-col justify-center items-center">
       <h1 className="text-center font-[family-name:var(--font-pt-serif)] text-4xl sm:text-5xl">
         Contacto
       </h1>

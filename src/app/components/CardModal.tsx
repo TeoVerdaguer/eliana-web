@@ -39,7 +39,7 @@ const CardModal = ({
           <motion.article
             key="modal"
             layoutId={openId}
-            className="fixed inset-0 m-auto h-[80vh] w-[90vw] max-w-xl
+            className="fixed inset-0 m-auto h-[80vh] 2xl:h-[60vh] w-[90vw] max-w-xl
                        rounded-3xl overflow-hidden shadow-2xl z-50
                        bg-[var(--darker)] text-white flex flex-col
                        font-[family-name:var(--font-jost)]"

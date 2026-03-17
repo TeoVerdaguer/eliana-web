@@ -71,7 +71,7 @@ export default function ContactButton() {
                     href="https://api.whatsapp.com/send?phone=+5493516889816&text=Hola+Eliana!"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-col items-center gap-1"
+                    className="flex flex-col items-center hover:scale-120 transition-transform"
                   >
                     <WhatsApp size={24} className='fill-black' />
                   </a>
@@ -90,7 +90,7 @@ export default function ContactButton() {
                     href="tel:3516889816"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-col items-center gap-1"
+                    className="flex flex-col items-center hover:scale-120 transition-transform"
                   >
                     <Phone color='black' size={22} />
                   </a>
@@ -109,7 +109,7 @@ export default function ContactButton() {
                     href="mailto:elibarrionew@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-col items-center gap-1"
+                    className="flex flex-col items-center hover:scale-120 transition-transform"
                   >
                     <Mail color='black' size={22} />
                   </a>

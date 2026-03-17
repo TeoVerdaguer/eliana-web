@@ -7,6 +7,30 @@ import EmblaCarousel from "@/app/components/EmblaCarousel"
 const Portfolio = () => {
   const SLIDES = [
     {
+      id: "catalogoBando",
+      title: "Bando",
+      category: "BRANDING",
+      description: "Diseño de catálogo de Invierno 2026 para la marca Bando",
+      link: "https://www.behance.net/gallery/245901411/Catalogo-Invierno-2026-Bando",
+      image: "/images/bandoCat.webp"
+    },
+    {
+      id: "carteleriaAutohaus",
+      title: "Autohaus",
+      category: "BRANDING",
+      description: "Diseño de cartelería y posteos de RRSS para la marca Autohaus",
+      link: "https://www.behance.net/gallery/245871377/Auto-Haus",
+      image: "/images/autohaus.webp"
+    },
+    {
+      id: "logofoliov1",
+      title: "Logofolio",
+      category: "BRANDING",
+      description: "Selección de logos diseñados para distintos proyectos",
+      link: "https://www.behance.net/gallery/232073421/Logofolio-Vol01",
+      image: "/images/logofolio.webp"
+    },
+    {
       id: "CartelesBando",
       title: "Bando",
       category: "BRANDING",
@@ -18,7 +42,7 @@ const Portfolio = () => {
       id: "StickersCmto",
       title: "Complemento",
       category: "ILUSTRACIÓN",
-      description: "Diseño de stickers",
+      description: "Diseño de stickers para la marca Complemento",
       link: "https://www.behance.net/gallery/232023429/Diseno-de-Stickers",
       image: "/images/stickersCmto.webp"
     },
@@ -45,14 +69,6 @@ const Portfolio = () => {
       description: "Diseño de prop para producción de fotos.",
       link: "https://www.behance.net/gallery/207332349/Etiqueta-Champagne",
       image: "/images/bando.webp"
-    },
-    {
-      id: "LOGOFOLIO",
-      title: "Logofolio",
-      category: "BRANDING",
-      description: "Selección de logos diseñados en el período 2024.",
-      link: "https://www.behance.net/gallery/200439623/LOGOFOLIO",
-      image: "/images/logofolio.webp"
     },
     {
       id: "RPM",
